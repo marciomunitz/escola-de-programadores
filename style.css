@@ -1,24 +1,122 @@
-:root{
-    --purple-200: #A369FF;
-    --purple-300: #8733ff;
-    --grey-300: #4F4F4F;
-    --white-300: #FFFFFF;
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-}
-
-.menuPrincipal{
-    background: black;
+/* Estilo do menu principal */
+.menuPrincipal {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 1.5%;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
 }
 
-.botaoMenuPrincipal{
-    color: var(--white-300);
+.menuPrincipalBotoes {
+    display: flex;
+}
+
+.botaoMenuPrincipal {
+    display: block;
+    padding: 10px 20px;
     text-decoration: none;
+    color: #fff;
+}
+
+.botaoMenuPrincipal:hover {
+    background-color: #666;
+}
+
+/* Estilo das seções */
+.container-sobreMim,
+.container-curriculo,
+.container-skills,
+.container-contato {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+/* Estilo da seção sobre mim */
+.container-sobreMim h1 {
+    color: #333;
+}
+
+.container-sobreMim p {
+    color: #666;
+}
+
+/* Estilo da seção currículo */
+.container-curriculo h1 {
+    color: #333;
+}
+
+.container-curriculo p {
+    color: #666;
+}
+
+.container-curriculo ul {
+    list-style-type: circle;
+}
+
+/* Estilo da seção skills */
+.container-skills h1 {
+    color: #333;
+}
+
+.container-skills p {
+    color: #666;
+}
+
+.tabela-skills {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-skills th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.tabela-skills td {
+    background-color: #f0f0f0;
+    color: #666;
+    padding: 10px;
+}
+
+/* Estilo da seção contato */
+.container-contato h1 {
+    color: #333;
+}
+
+.container-contato p {
+    color: #666;
+}
+
+.container-contato a {
+    text-decoration: none;
+    color: #333; /* Alterei a cor do link para preto */
+}
+
+.container-contato a:hover {
+    text-decoration: underline; /* Adicionei um sublinhado ao passar o mouse sobre o link */
+}
+
+/* Aqui eu adicionei alguns destaques no texto e cores em tons suaves */
+
+/* Destaquei o nome do aluno em negrito e em azul claro */
+.container-sobreMim h1, .container-curriculo h1, .container-skills h1, .container-contato h1 {
+    font-weight: bold; /* Negrito */
+    color: #3399ff; /* Azul claro */
+}
+
+/* Destaquei as categorias das skills em negrito e em verde claro */
+.tabela-skills th {
+    font-weight: bold; /* Negrito */
+    background-color: #33cc33; /* Verde claro */
 }

@@ -100,22 +100,18 @@ body {
 
 .container-contato a {
     text-decoration: none;
-    color: #333; /* Alterei a cor do link para preto */
+    color: #333;
 }
 
 .container-contato a:hover {
     text-decoration: underline; /* Adicionei um sublinhado ao passar o mouse sobre o link */
 }
 
-/* Aqui eu adicionei alguns destaques no texto e cores em tons suaves */
-
-/* Destaquei o nome do aluno em negrito e em azul claro */
 .container-sobreMim h1, .container-curriculo h1, .container-skills h1, .container-contato h1 {
     font-weight: bold; /* Negrito */
     color: #3399ff; /* Azul claro */
 }
 
-/* Destaquei as categorias das skills em negrito e em verde claro */
 .tabela-skills th {
     font-weight: bold; /* Negrito */
     background-color: #33cc33; /* Verde claro */

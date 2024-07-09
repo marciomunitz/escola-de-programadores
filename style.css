@@ -98,15 +98,6 @@ body {
     color: #666;
 }
 
-.container-contato a {
-    text-decoration: none;
-    color: #333;
-}
-
-.container-contato a:hover {
-    text-decoration: underline; /* Adicionei um sublinhado ao passar o mouse sobre o link */
-}
-
 .container-sobreMim h1, .container-curriculo h1, .container-skills h1, .container-contato h1 {
     font-weight: bold; /* Negrito */
     color: #3399ff; /* Azul claro */
